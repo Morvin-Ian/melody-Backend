@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-x=#(=1l7^=m4b@7v!#2f#t108_utduqn2203%r%+j_v^$6j-s!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['melody-talk.herokuapp.com', '127.0.0.1', 'localhost', "Morvin-Ian.github.io/melody-talk"]
+ALLOWED_HOSTS = ['melody-talk.herokuapp.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -136,13 +136,13 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "https://Morvin-Ian.github.io/melody-talk"
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:3000",
+#     "https://melody-talk.vercel.app/"
 
-]
+# ]
 
-# CORS_ALLOW_ALL_ORIGINS= True
+CORS_ALLOW_ALL_ORIGINS= True
 
 
 import os
